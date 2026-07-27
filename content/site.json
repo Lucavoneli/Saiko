@@ -33,13 +33,10 @@
         "name": "BASIC",
         "featured": false,
         "ribbon": "",
-        "size_label": "SMALL – MEDIUM ROOM",
-        "blurb": "One themed room, done properly.",
+        "size_label": "SMALL",
+        "blurb": "A single room, cleanly themed.",
         "features": [
-          "1 room, up to medium size",
-          "Layout + full theming",
-          "1 revision round",
-          "2–3 day turnaround"
+          "One small–medium room / Themed and decorated / 1 round of tweaks / Turnaround around 2-3 days"
         ]
       },
       {
@@ -49,8 +46,8 @@
         "name": "STANDARD",
         "featured": true,
         "ribbon": "★ MOST BOOKED",
-        "size_label": "LARGE ROOM",
-        "blurb": "A full room with working mechanics.",
+        "size_label": "MEDIUM",
+        "blurb": "A single room, cleanly themed.",
         "features": [
           "Large custom-themed room",
           "Wired games & teleports",
@@ -65,9 +62,9 @@
         "price": "1350",
         "name": "PREMIUM",
         "featured": false,
-        "ribbon": "",
-        "size_label": "MULTI-ROOM / MAX",
-        "blurb": "A multi-room space or full event.",
+        "ribbon": "★ GOOD DEAL-",
+        "size_label": "LARGE",
+        "blurb": "A proper built room",
         "features": [
           "Large",
           "Proper"
