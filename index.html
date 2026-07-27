@@ -433,26 +433,9 @@ footer a:hover{color:var(--orange)}
   <div class="wrap">
     <div class="book rv">
       <h2 id="bookHeading">Ready to commission a room?</h2>
-      <p id="bookSub">Fill in the request form below with your brief, or reach out directly. I usually reply within 24 hours.</p>
-
-      <!-- ============================================================
-           COMMISSION FORM
-           Paste your Tally embed code between the marked lines below.
-           In Tally: Share > Embed > copy the <iframe...> code,
-           then replace the whole .form-placeholder div with it.
-           ============================================================ -->
-      <div class="form-wrap" id="commissionForm">
-        <!-- >>> PASTE YOUR TALLY <iframe> HERE (replace the block below) <<< -->
-        <div class="form-placeholder">
-          <span class="fp-icon">✎</span>
-          <b>Your request form goes here</b>
-          <span class="fp-sub">Create a free form at tally.so, then paste its embed code into this spot in index.html. Until then, use the buttons below.</span>
-        </div>
-        <!-- >>> END PASTE AREA <<< -->
-      </div>
+      <p id="bookSub">Send me your brief and I'll get back to you, usually within 24 hours.</p>
 
       <div class="book-alt">
-        <span class="book-alt-label" id="bookAltLabel">Or reach me directly</span>
         <div class="btns">
           <!-- EDIT: put your real Discord invite + email here -->
           <a href="#" class="btn btn-onorange-primary" id="discordBtn">Message on Discord</a>
@@ -583,7 +566,8 @@ let ROOMS = [];
   var cm = SITE.commission || {};
   if(cm.heading!=null) document.getElementById('bookHeading').textContent = cm.heading;
   if(cm.subtext!=null) document.getElementById('bookSub').textContent = cm.subtext;
-  if(cm.alt_label!=null) document.getElementById('bookAltLabel').textContent = cm.alt_label;
+  var altLabel = document.getElementById('bookAltLabel');
+  if(cm.alt_label!=null && altLabel) altLabel.textContent = cm.alt_label;
   if(cm.discord_btn!=null) document.getElementById('discordBtn').textContent = cm.discord_btn;
   if(cm.email_btn!=null) document.getElementById('emailBtn').textContent = cm.email_btn;
 
