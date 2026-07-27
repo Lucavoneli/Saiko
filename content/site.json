@@ -36,7 +36,10 @@
         "size_label": "SMALL",
         "blurb": "A single room, cleanly themed.",
         "features": [
-          "One small–medium room / Themed and decorated / 1 round of tweaks / Turnaround around 2-3 days"
+          "Small room",
+          "Themed and decorated",
+          "1 round of tweaks",
+          "Turnaround around 2-3 days"
         ]
       },
       {
@@ -49,11 +52,11 @@
         "size_label": "MEDIUM",
         "blurb": "A single room, cleanly themed.",
         "features": [
-          "Large custom-themed room",
-          "Wired games & teleports",
-          "Lighting + effects pass",
-          "2 revision rounds",
-          "4–5 day turnaround"
+          "Medium room",
+          "Detailed layered decoration",
+          "Fuller furni and theming",
+          "2 rounds of tweaks",
+          "Turnaround around 3-5 days"
         ]
       },
       {
@@ -66,8 +69,11 @@
         "size_label": "LARGE",
         "blurb": "A proper built room",
         "features": [
-          "Large",
-          "Proper"
+          "Large room",
+          "Highest detail and density",
+          "Fully decorated corner to corner",
+          "A few rounds of tweaks",
+          "Turnaround agreed up front"
         ]
       }
     ]
