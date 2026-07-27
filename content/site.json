@@ -8,7 +8,7 @@
     "cta_primary": "Commission a room →",
     "title_after": " want to leave.",
     "tags": [
-      "WIRED GAMES",
+      "BUILDS",
       "EVENT SPACES",
       "RP MAPS",
       "FAST TURNAROUND"
@@ -28,8 +28,8 @@
     "tiers": [
       {
         "unit": "cr",
-        "size_img": "",
-        "price": "25",
+        "size_img": "images/elistudio.png",
+        "price": "500",
         "name": "BASIC",
         "featured": false,
         "ribbon": "",
@@ -43,36 +43,35 @@
         ]
       },
       {
-        "name": "STANDARD",
-        "price": "60",
         "unit": "cr",
-        "blurb": "A full room with working mechanics.",
+        "size_img": "images/saiko_habbo_build_08.png",
+        "price": "800",
+        "name": "STANDARD",
+        "featured": true,
+        "ribbon": "★ MOST BOOKED",
         "size_label": "LARGE ROOM",
+        "blurb": "A full room with working mechanics.",
         "features": [
           "Large custom-themed room",
           "Wired games & teleports",
           "Lighting + effects pass",
           "2 revision rounds",
           "4–5 day turnaround"
-        ],
-        "featured": true,
-        "ribbon": "★ MOST BOOKED"
+        ]
       },
       {
-        "name": "PREMIUM",
-        "price": "120",
         "unit": "cr",
-        "blurb": "A multi-room space or full event.",
-        "size_label": "MULTI-ROOM / MAX",
-        "features": [
-          "Multiple linked rooms",
-          "Complex wired logic",
-          "Event flow + host area",
-          "Unlimited in-scope revisions",
-          "Priority queue"
-        ],
+        "size_img": "images/saiko_habbo_build_06.png",
+        "price": "1350",
+        "name": "PREMIUM",
         "featured": false,
-        "ribbon": ""
+        "ribbon": "",
+        "size_label": "MULTI-ROOM / MAX",
+        "blurb": "A multi-room space or full event.",
+        "features": [
+          "Large",
+          "Proper"
+        ]
       }
     ]
   },
