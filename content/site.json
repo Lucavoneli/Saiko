@@ -1,20 +1,20 @@
 {
   "hero": {
-    "eyebrow": "Habbo room builder · Open for commissions",
+    "cta_secondary": "Peek the builds",
     "title_before": "I build rooms people ",
+    "eyebrow": "Habbo room builder · Open for commissions",
     "title_highlight": "never",
+    "photo": "images/saiko_habbo_build_06.png",
+    "cta_primary": "Commission a room →",
     "title_after": " want to leave.",
-    "lead": "Casinos, event halls, mazes, RP maps, you name the vibe. Custom Habbo rooms with working wired mechanics, delivered on time and built to be walked around in.",
-    "photo": "",
-    "photo_caption": "★ FAVOURITE BUILD ★",
     "tags": [
       "WIRED GAMES",
       "EVENT SPACES",
       "RP MAPS",
       "FAST TURNAROUND"
     ],
-    "cta_primary": "Commission a room →",
-    "cta_secondary": "Peek the builds"
+    "photo_caption": "★ FAVOURITE BUILD ★",
+    "lead": "Builds, event halls, mazes, RP maps, you name the vibe. Custom Habbo rooms with working wired mechanics, delivered on time and built to be walked around in."
   },
   "gallery": {
     "kicker": "The gallery",
@@ -27,20 +27,20 @@
     "subtext": "Each tier shows the room size it covers, so you can see exactly what you're getting.",
     "tiers": [
       {
-        "name": "BASIC",
-        "price": "25",
         "unit": "cr",
-        "blurb": "One themed room, done properly.",
+        "size_img": "",
+        "price": "25",
+        "name": "BASIC",
+        "featured": false,
+        "ribbon": "",
         "size_label": "SMALL – MEDIUM ROOM",
+        "blurb": "One themed room, done properly.",
         "features": [
           "1 room, up to medium size",
           "Layout + full theming",
           "1 revision round",
           "2–3 day turnaround"
-        ],
-        "featured": false,
-        "ribbon": "",
-        "size_img": ""
+        ]
       },
       {
         "name": "STANDARD",
