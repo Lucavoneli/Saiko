@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "eyebrow": "Habbo room builder · Open for commissions",
+    "title_before": "I build rooms people ",
+    "title_highlight": "never",
+    "title_after": " want to leave.",
+    "lead": "Casinos, event halls, mazes, RP maps, you name the vibe. Custom Habbo rooms with working wired mechanics, delivered on time and built to be walked around in.",
+    "photo": "",
+    "photo_caption": "★ FAVOURITE BUILD ★",
+    "tags": [
+      "WIRED GAMES",
+      "EVENT SPACES",
+      "RP MAPS",
+      "FAST TURNAROUND"
+    ],
+    "cta_primary": "Commission a room →",
+    "cta_secondary": "Peek the builds"
+  },
+  "gallery": {
+    "kicker": "The gallery",
+    "heading": "Rooms I've built",
+    "subtext": "A few favourites."
+  },
+  "pricing": {
+    "kicker": "The prices",
+    "heading": "Pick your build",
+    "subtext": "Each tier shows the room size it covers, so you can see exactly what you're getting.",
+    "tiers": [
+      {
+        "name": "BASIC",
+        "price": "25",
+        "unit": "cr",
+        "blurb": "One themed room, done properly.",
+        "size_label": "SMALL – MEDIUM ROOM",
+        "features": [
+          "1 room, up to medium size",
+          "Layout + full theming",
+          "1 revision round",
+          "2–3 day turnaround"
+        ],
+        "featured": false,
+        "ribbon": "",
+        "size_img": ""
+      },
+      {
+        "name": "STANDARD",
+        "price": "60",
+        "unit": "cr",
+        "blurb": "A full room with working mechanics.",
+        "size_label": "LARGE ROOM",
+        "features": [
+          "Large custom-themed room",
+          "Wired games & teleports",
+          "Lighting + effects pass",
+          "2 revision rounds",
+          "4–5 day turnaround"
+        ],
+        "featured": true,
+        "ribbon": "★ MOST BOOKED"
+      },
+      {
+        "name": "PREMIUM",
+        "price": "120",
+        "unit": "cr",
+        "blurb": "A multi-room space or full event.",
+        "size_label": "MULTI-ROOM / MAX",
+        "features": [
+          "Multiple linked rooms",
+          "Complex wired logic",
+          "Event flow + host area",
+          "Unlimited in-scope revisions",
+          "Priority queue"
+        ],
+        "featured": false,
+        "ribbon": ""
+      }
+    ]
+  },
+  "process": {
+    "kicker": "How it works",
+    "heading": "Four steps, zero stress",
+    "steps": [
+      {
+        "title": "Brief",
+        "text": "Send theme, room size, references and deadline via the form or Discord."
+      },
+      {
+        "title": "Quote",
+        "text": "I confirm scope, price and timeline. A 50% deposit locks your slot."
+      },
+      {
+        "title": "Build",
+        "text": "I build it and send a preview. Your revisions happen right here."
+      },
+      {
+        "title": "Deliver",
+        "text": "Final payment, then the room is handed over and it's yours."
+      }
+    ]
+  },
+  "commission": {
+    "heading": "Ready to commission a room?",
+    "subtext": "Fill in the request form below with your brief, or reach out directly. I usually reply within 24 hours.",
+    "alt_label": "Or reach me directly",
+    "discord_btn": "Message on Discord",
+    "email_btn": "Email me"
+  }
+}

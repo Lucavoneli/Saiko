@@ -1,0 +1,123 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  # ---------------- ROOM LIBRARY ----------------
+  - name: "rooms"
+    label: "Room builds"
+    description: "Add, edit, reorder and delete the builds shown on your site."
+    files:
+      - name: "rooms_list"
+        label: "All room builds"
+        file: "content/rooms.json"
+        description: "Each entry is one build. Drag to reorder. 'Featured' also shows it on the homepage."
+        fields:
+          - name: "rooms"
+            label: "Builds"
+            label_singular: "Build"
+            widget: "list"
+            summary: "{{fields.name}}  ({{fields.tag}})"
+            fields:
+              - { name: "name", label: "Room name", widget: "string" }
+              - { name: "tag", label: "Type / tag", widget: "string", hint: "Type any tag you like, e.g. Casino, Event, Maze. It becomes a filter on the library page." }
+              - { name: "featured", label: "Show on homepage (featured)", widget: "boolean", default: false }
+              - { name: "image", label: "Room screenshot", widget: "image", required: false }
+              - { name: "about", label: "Description", widget: "text" }
+              - { name: "room_size", label: "Room size", widget: "string", required: false }
+              - { name: "built_for", label: "Built for", widget: "string", required: false }
+              - { name: "mechanics", label: "Mechanics", widget: "string", required: false }
+              - { name: "build_time", label: "Build time", widget: "string", required: false }
+              - { name: "tier", label: "Tier", widget: "string", required: false }
+
+  # ---------------- HOMEPAGE TEXT & PRICING ----------------
+  - name: "site"
+    label: "Site content"
+    description: "Edit the wording, pricing, and steps across the homepage."
+    files:
+      - name: "site_content"
+        label: "Homepage content"
+        file: "content/site.json"
+        description: "Everything on the homepage except the room builds."
+        fields:
+          - name: "hero"
+            label: "Top section (hero)"
+            widget: "object"
+            fields:
+              - { name: "eyebrow", label: "Small line above the title", widget: "string" }
+              - { name: "title_before", label: "Title — first part", widget: "string", hint: "e.g. 'I build rooms people '" }
+              - { name: "title_highlight", label: "Title — highlighted word", widget: "string", hint: "e.g. 'never' (gets the yellow marker)" }
+              - { name: "title_after", label: "Title — last part", widget: "string", hint: "e.g. ' want to leave.'" }
+              - { name: "lead", label: "Intro paragraph", widget: "text" }
+              - { name: "photo", label: "Favourite build photo", widget: "image", required: false }
+              - { name: "photo_caption", label: "Photo caption", widget: "string", required: false }
+              - { name: "tags", label: "Feature tags", widget: "list", hint: "The little tags under the buttons, e.g. WIRED GAMES." }
+              - { name: "cta_primary", label: "Main button text", widget: "string" }
+              - { name: "cta_secondary", label: "Second button text", widget: "string" }
+          - name: "gallery"
+            label: "Gallery section"
+            widget: "object"
+            fields:
+              - { name: "kicker", label: "Small label", widget: "string" }
+              - { name: "heading", label: "Heading", widget: "string" }
+              - { name: "subtext", label: "Subtext", widget: "string" }
+          - name: "pricing"
+            label: "Pricing section"
+            widget: "object"
+            fields:
+              - { name: "kicker", label: "Small label", widget: "string" }
+              - { name: "heading", label: "Heading", widget: "string" }
+              - { name: "subtext", label: "Subtext", widget: "string" }
+              - name: "tiers"
+                label: "Pricing tiers"
+                label_singular: "Tier"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.price}} {{fields.unit}}"
+                fields:
+                  - { name: "name", label: "Tier name", widget: "string" }
+                  - { name: "price", label: "Price", widget: "string" }
+                  - { name: "unit", label: "Unit", widget: "string", default: "cr" }
+                  - { name: "blurb", label: "One-line description", widget: "string" }
+                  - { name: "size_label", label: "Size label", widget: "string" }
+                  - { name: "size_img", label: "Size guide image", widget: "image", required: false }
+                  - { name: "features", label: "What's included", widget: "list" }
+                  - { name: "featured", label: "Highlight this tier", widget: "boolean", default: false }
+                  - { name: "ribbon", label: "Ribbon text (optional)", widget: "string", required: false, hint: "e.g. ★ MOST BOOKED. Leave blank for none." }
+          - name: "process"
+            label: "Process section"
+            widget: "object"
+            fields:
+              - { name: "kicker", label: "Small label", widget: "string" }
+              - { name: "heading", label: "Heading", widget: "string" }
+              - name: "steps"
+                label: "Steps"
+                label_singular: "Step"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: "title", label: "Step title", widget: "string" }
+                  - { name: "text", label: "Step description", widget: "text" }
+          - name: "commission"
+            label: "Commission section"
+            widget: "object"
+            fields:
+              - { name: "heading", label: "Heading", widget: "string" }
+              - { name: "subtext", label: "Subtext", widget: "text" }
+              - { name: "alt_label", label: "Direct-contact label", widget: "string" }
+              - { name: "discord_btn", label: "Discord button text", widget: "string" }
+              - { name: "email_btn", label: "Email button text", widget: "string" }
+
+  # ---------------- CONTACT LINKS ----------------
+  - name: "settings"
+    label: "Contact links"
+    files:
+      - name: "contact"
+        label: "Discord & email"
+        file: "content/settings.json"
+        description: "Used by the Commission buttons."
+        fields:
+          - { name: "discord", label: "Discord DM or invite link", widget: "string", hint: "e.g. https://discord.com/users/YOURID" }
+          - { name: "email", label: "Email address", widget: "string" }

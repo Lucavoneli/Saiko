@@ -1,0 +1,107 @@
+========================================================
+  SAIKO — ONE-TIME SETUP (about 15 minutes)
+  After this, you manage everything from a visual admin
+  panel. No code, no folders, ever again.
+========================================================
+
+You'll connect three free things:
+  GitHub  = stores your site files
+  Netlify = puts your site online
+  Admin   = the visual panel where you add builds
+
+Do these in order. Take your time.
+
+--------------------------------------------------------
+PART 1 — PUT YOUR SITE ON GITHUB
+--------------------------------------------------------
+1. Go to github.com and make a free account (or log in).
+
+2. Click the "+" top-right > "New repository".
+   - Repository name: saiko
+   - Set it to "Public"
+   - Do NOT tick "Add a README"
+   - Click "Create repository".
+
+3. On the next page, click "uploading an existing file"
+   (a link in the middle of the page).
+
+4. Unzip saiko-portfolio.zip on your computer. Open the
+   saiko-portfolio folder. Select ALL the files and folders
+   inside it (index.html, library.html, admin, content,
+   images, rooms.js, etc.) and drag them onto the GitHub
+   upload page.
+   IMPORTANT: drag the CONTENTS of the folder, not the
+   folder itself.
+
+5. Wait for them to finish uploading, then click
+   "Commit changes" (green button, bottom).
+
+--------------------------------------------------------
+PART 2 — PUT IT ONLINE WITH NETLIFY
+--------------------------------------------------------
+6. Go to netlify.com and sign up — choose
+   "Sign up with GitHub". This links them automatically.
+
+7. Click "Add new site" > "Import an existing project".
+
+8. Choose "GitHub", authorise if asked, and pick your
+   "saiko" repository from the list.
+
+9. Leave all the build settings blank/default and click
+   "Deploy". Wait ~30 seconds. Your site is live at a
+   random URL like random-name-123.netlify.app.
+
+10. Rename it: Site configuration > Change site name >
+    type saiko-rooms (or whatever you like) > Save.
+    Your site is now saiko-rooms.netlify.app.
+
+--------------------------------------------------------
+PART 3 — TURN ON THE ADMIN PANEL
+--------------------------------------------------------
+The admin panel needs a login system. Netlify has one
+built in ("Identity"). Turn it on:
+
+11. In your site's Netlify dashboard, go to:
+    Integrations (or "Identity" in older menus) >
+    enable "Identity".
+    (If you can't find it: it may be under
+    Site configuration > Identity > "Enable Identity".)
+
+12. Under Identity > Registration, set it to
+    "Invite only" (so only you can log in).
+
+13. Still under Identity, find "Services" >
+    "Git Gateway" and click "Enable Git Gateway".
+    This lets the admin panel save to GitHub.
+
+14. Go to the Identity tab > "Invite users" >
+    type YOUR email > send. Check your inbox and click
+    the invite link to set your password.
+
+--------------------------------------------------------
+PART 4 — YOU'RE DONE. HOW TO USE IT
+--------------------------------------------------------
+15. Go to  saiko-rooms.netlify.app/admin
+    Log in with the email + password from step 14.
+
+You'll see a visual panel. To add a build:
+   - Click "Room builds" > "All room builds"
+   - Click "Add Builds +" at the bottom of the list
+   - Fill in the name, pick the type, upload a screenshot,
+     write the description, tick "featured" if you want it
+     on the homepage
+   - Click "Save", then "Publish"
+
+Your live site updates itself in about a minute. That's it.
+No files, no code, from any device, anywhere.
+
+To set your Discord/email: in the admin, open
+"Site links" > "Contact & links" and paste them in.
+
+--------------------------------------------------------
+STUCK?
+--------------------------------------------------------
+The trickiest part is usually step 11-13 (Identity + Git
+Gateway), because Netlify moves these menus around. If you
+get lost, tell me exactly what you see on screen and I'll
+point you to the right button.

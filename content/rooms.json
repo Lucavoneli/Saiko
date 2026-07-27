@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "name": "Neon Casino Floor",
+      "tag": "CASINO",
+      "featured": true,
+      "image": "",
+      "about": "A full casino floor with working wired games, a cashier desk and a VIP mezzanine. Built for a weekly event night with room for around 40 players at once.",
+      "room_size": "Large (max)",
+      "built_for": "Weekly casino night",
+      "mechanics": "Wired dice games, teleports",
+      "build_time": "5 days",
+      "tier": "Premium"
+    },
+    {
+      "name": "Winter Event Lobby",
+      "tag": "EVENT",
+      "featured": true,
+      "image": "",
+      "about": "A seasonal welcome lobby with a stage area, host podium and queue flow into the main event room. Snow effects and layered lighting throughout.",
+      "room_size": "Large",
+      "built_for": "Christmas event week",
+      "mechanics": "Teleport gates, effect triggers",
+      "build_time": "4 days",
+      "tier": "Standard"
+    },
+    {
+      "name": "Fashion Runway",
+      "tag": "RUNWAY",
+      "featured": true,
+      "image": "",
+      "about": "A catwalk stage with seating on both sides, backstage prep area and a judges' booth. Lighting rig built to spotlight the walking lane.",
+      "room_size": "Medium",
+      "built_for": "Fashion competition",
+      "mechanics": "Spotlight wired effects",
+      "build_time": "3 days",
+      "tier": "Standard"
+    },
+    {
+      "name": "Trivia Maze",
+      "tag": "GAME",
+      "featured": true,
+      "image": "",
+      "about": "A multi-path maze where each wrong turn drops you back to the start. Fully wired question gates and a prize room at the centre.",
+      "room_size": "Large",
+      "built_for": "Game night series",
+      "mechanics": "Wired gates, fall-through floors",
+      "build_time": "5 days",
+      "tier": "Premium"
+    },
+    {
+      "name": "RP Mansion",
+      "tag": "ROLEPLAY",
+      "featured": false,
+      "image": "",
+      "about": "A three-floor mansion interior with distinct rooms for roleplay scenes, hidden passages and a working lift between floors.",
+      "room_size": "Large (max)",
+      "built_for": "Roleplay group",
+      "mechanics": "Lift teleports, hidden doors",
+      "build_time": "6 days",
+      "tier": "Premium"
+    },
+    {
+      "name": "Rooftop Lounge",
+      "tag": "SOCIAL",
+      "featured": false,
+      "image": "",
+      "about": "A relaxed rooftop hangout with a bar, seating clusters and a skyline backdrop. Designed for chill social use rather than events.",
+      "room_size": "Medium",
+      "built_for": "Casual hangout",
+      "mechanics": "Ambient lighting only",
+      "build_time": "2 days",
+      "tier": "Basic"
+    }
+  ]
+}
