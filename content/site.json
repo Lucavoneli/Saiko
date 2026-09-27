@@ -45,7 +45,7 @@
       {
         "unit": "cr",
         "size_img": "images/saiko_habbo_build_08.png",
-        "price": "800",
+        "price": "1000",
         "name": "STANDARD",
         "featured": true,
         "ribbon": "★ MOST BOOKED",
@@ -62,7 +62,7 @@
       {
         "unit": "cr",
         "size_img": "images/saiko_habbo_build_06.png",
-        "price": "1350",
+        "price": "1500",
         "name": "PREMIUM",
         "featured": false,
         "ribbon": "★ GOOD DEAL-",
