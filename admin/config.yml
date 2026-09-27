@@ -108,16 +108,15 @@ collections:
               - { name: "subtext", label: "Subtext", widget: "text" }
               - { name: "alt_label", label: "Direct-contact label", widget: "string" }
               - { name: "discord_btn", label: "Discord button text", widget: "string" }
-              - { name: "email_btn", label: "Email button text", widget: "string" }
 
   # ---------------- CONTACT LINKS ----------------
   - name: "settings"
     label: "Contact links"
     files:
       - name: "contact"
-        label: "Discord & email"
+        label: "Discord"
         file: "content/settings.json"
         description: "Used by the Commission buttons."
         fields:
-          - { name: "discord", label: "Discord DM or invite link", widget: "string", hint: "e.g. https://discord.com/users/YOURID" }
-          - { name: "email", label: "Email address", widget: "string" }
+          - { name: "discord_username", label: "Discord username", widget: "string", hint: "Just the name, e.g. lucavoneli. Shown on the site and copied when people click the button." }
+          - { name: "discord", label: "Discord profile link", widget: "string", required: false, hint: "https://discord.com/users/YOUR-ID (opens your profile so people can DM or add you). Leave empty to only show the username." }
